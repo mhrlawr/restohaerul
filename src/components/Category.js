@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUtensils, faBeer, faHotdog } from '@fortawesome/free-solid-svg-icons'
 
 const Icon = ({ nama }) => {
-    if (nama == "Makanan") return <FontAwesomeIcon icon={faUtensils} className="mr-2" />
-    if (nama == "Minuman") return <FontAwesomeIcon icon={faBeer} className="mr-2" />
-    if (nama == "Cemilan") return <FontAwesomeIcon icon={faHotdog} className="mr-2" />
+    if (nama === "Makanan") return <FontAwesomeIcon icon={faUtensils} className="mr-2" />
+    if (nama === "Minuman") return <FontAwesomeIcon icon={faBeer} className="mr-2" />
+    if (nama === "Cemilan") return <FontAwesomeIcon icon={faHotdog} className="mr-2" />
 
     return <FontAwesomeIcon icon={faUtensils} className="mr-2" />
 }
@@ -18,7 +18,7 @@ export default class Category extends Component {
         super(props)
 
         this.state = {
-            Category: []
+            categories: [],
         }
     }
 
@@ -31,27 +31,26 @@ export default class Category extends Component {
             })
             .catch(error => {
                 console.log(error);
-            })
+            });
     }
 
     render() {
-        const { categories } = this.state
-        const { changeCategory, kategoriDipilih } = this.props
+        const { categories } = this.state;
+        const { changeCategory, kategoriDipilih } = this.props;
         return (
-            <Col md={2} mt="2">
-                <h4><strong>Kategori</strong></h4>
+            <Col md={2} className="mt-3">
+                <h4 className="text-center"><strong>Kategori</strong></h4>
                 <hr />
                 <ListGroup>
                     {categories && categories.map((category) => (
-                        <ListGroup.Item key={category.id} onClick={() => changeCategory(category.nama)} 
-                        className={kategoriDipilih == category.nama && "category-aktif"}
-                        style={{cursor: 'pointer'}}
-                        >
-                            <h5><Icon nama={category.nama} /> {category.nama}</h5>
+                        <ListGroup.Item key={category.id} onClick={() => changeCategory(category.nama)}
+                            className={kategoriDipilih === category.nama && "category-aktif"}
+                            style={{ cursor: 'pointer' }}>
+                            <h6><Icon nama={category.nama} /> {category.nama}</h6>
                         </ListGroup.Item>
                     ))}
                 </ListGroup>
             </Col>
-        )
+        );
     }
 }
