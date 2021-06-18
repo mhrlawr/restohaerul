@@ -1,0 +1,355 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Ayam Geprek Sambel Matah",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "ayam-geprek-sambel-matah.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Ayam Geprek Cabe Ijo",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "ayam-geprek-cabe-ijo.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Ayam Geprek Sambel Mozarella",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "ayam-geprek-mozarella.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Ayam Geprek Original",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "ayam-geprek-original.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Geprek Original",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "mie-geprek.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Bakso Mercon",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "bakso-mercon.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Mie Ayam Bakso Mercon",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso-mercon.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Thai Tea Large",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "thai-tea-large.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Es Teh Taro",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "es-teh-taro.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Es Teh Milo",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "es-teh-milo.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Es Teh Avocado",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "es-teh-avocado.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Es Teh Red Velvet Chizu",
+      "harga": 23000,
+      "is_ready": true,
+      "gambar": "red-velvet-chizu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "nama": "Taro Chizu",
+      "harga": 23000,
+      "is_ready": true,
+      "gambar": "taro-chizu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "Brown Sugar with Boba",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "brown-sugar.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "nama": "Es Teh Strawberlly Jasmine",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "strawbelly-jasmine.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "nama": "Sea Salt Cookies and Cream",
+      "harga": 24000,
+      "is_ready": true,
+      "gambar": "sea-salt.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-017",
+      "nama": "Es Teh Nusantara",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nusantara.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-018",
+      "nama": "Ati Ampela Geprek",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "ati-ampela-geprek.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-019",
+      "nama": "Kentang Goreng",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-020",
+      "nama": "Kulit Ayam Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "kulit-ayam-goreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-021",
+      "nama": "Jamur Crispy",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "jamur-crispy.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-022",
+      "nama": "Pisang Goreng",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "pisang-goreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-023",
+      "nama": "Tempe Mendoan",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "tempe-mendoan.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-024",
+      "nama": "Bakwan",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "bakwan.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-025",
+      "nama": "Cireng Isi",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "cireng-isi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 20000,
+      "product": {
+        "id": 3,
+        "kode": "K-03",
+        "nama": "Ayam Geprek Sambel Mozarella",
+        "harga": 20000,
+        "is_ready": true,
+        "gambar": "ayam-geprek-mozarella.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 15000,
+      "product": {
+        "id": 4,
+        "kode": "K-04",
+        "nama": "Ayam Geprek Original",
+        "harga": 15000,
+        "is_ready": true,
+        "gambar": "ayam-geprek-original.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 2
+    }
+  ],
+  "pesanans": []
+}
